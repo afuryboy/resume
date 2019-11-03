@@ -397,7 +397,12 @@ html.cn {
 .resume > section > article {
     margin: 2em 0;
 }
-
+.resume .row {
+    display: flex;
+}
+.resume .row-item {
+    flex: 1;
+}
 .resume .title {
     font-weight: bold;
     color: #000;
@@ -417,13 +422,18 @@ html.cn {
 .resume .title + .sub, .resume .sub + .time {
     margin-top: .5em;
 }
-
+.resume .bold {
+    font-weight: bold;
+}
 .resume .description {
     padding: .5em 0;
     font-size: .9em;
     line-height: 1.5em;
+    display: flex;
 }
-
+.resume .description .description-item{
+    flex: 1;
+}
 /* RESUME SECTIONS */
 
 .resume-self {
