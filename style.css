@@ -403,10 +403,21 @@ html.cn {
 .resume .row-item {
     flex: 1;
 }
+.resume .row-3 {
+    flex: 3;
+}
+.resume .row-1 {
+    flex: 1;
+}
+.resume .align-right {
+    display: flex;
+    justify-content: flex-end;
+}
 .resume .title {
     font-weight: bold;
     color: #000;
     margin-bottom: 0;
+    border-bottom: 1px solid #000;
 }
 
 .resume .sub {
