@@ -391,11 +391,11 @@ html.cn {
 }
 
 .resume > section {
-    margin: 4em 0;
+    margin: 3em 0;
 }
 
 .resume > section > article {
-    margin: 2em 0;
+    margin: 1em 0;
 }
 .resume .row {
     display: flex;
